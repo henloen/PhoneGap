@@ -48,7 +48,7 @@ angular.module("bodApp.services", [])
 	})
 
 	//service that communicates with the REST API for participants
-	.factory("Participants", function($http) {
+	.factory("Participants", function($http, rootUrl) {
 		return {
 			//gets all participants
 			getAll : function() {
