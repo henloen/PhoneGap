@@ -3,7 +3,7 @@
 /*Services for bodApp*/
 angular.module("bodApp.services", [])
 
-	.constant(rootUrl, "http://10.1.102.26:3000")
+	.constant("rootUrl", "http://10.1.102.26:3000")
 	
 	//service that communicates with the REST API for answers
 	.factory("Answers", function($http) {
