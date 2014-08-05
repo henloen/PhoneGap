@@ -12,6 +12,11 @@
         The PhoneGap application of the Beauty of Data
     </description>
 
+    <feature name="debug-server" required="true">
+        <param name="domain" value="10.1.102.26:8080"/>
+        <param name="key" value="[bod phonegap app]"/>
+    </feature>
+
 
     <!--
         If you do not want any permissions to be added to your app, add the
