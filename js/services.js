@@ -6,7 +6,7 @@ angular.module("bodApp.services", [])
 	.constant("rootUrl", "http://10.1.102.26:3000")
 	
 	//service that communicates with the REST API for answers
-	.factory("Answers", function($http) {
+	.factory("Answers", function($http, rootUrl) {
 
 		return {
 			//gets all answers with a boolean parameter to determine whether all answers or only unprocessed should be fetched
